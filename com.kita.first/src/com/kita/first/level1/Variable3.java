@@ -2,7 +2,7 @@ package com.kita.first.level1;
 
 public class Variable3 {
 	public static void main(String[] args){
-		//형변환 순서 : int<long<float<double<String
+		//형변환 순서 : int<long<float<double<String 큰변수에서 작은 변수의 연산은 상관없지만 작은변수에서 큰변수를 사용 할때는 형변환 사용해야 함(?? - 내용 이해 및 확인 필요)
 		int v1 = 3;
 		int v2 = 5;
 		System.out.println(v1 + v2);

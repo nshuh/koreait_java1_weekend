@@ -9,9 +9,9 @@ public class Variable1 {
 		v3 = 1;
 		v3 = 2;
 		int v4 = 6; // 정수형 대표변수
-		long v5 = 24654621561151l; // 숫자 마지막에 L 표기
+		long v5 = 24654621561151l; // 숫자 마지막에 L 표기안쓰면 int로 인식
 		// 실수형 변수
-		float v6 = 1.2f; // 숫자 마지막에 f 표기
+		float v6 = 1.2f; // 숫자 마지막에 f 표기 안쓰면 double로 인식
 		double v7 = 2.3; // 실수형 대표변수
 		
 		boolean v8;
