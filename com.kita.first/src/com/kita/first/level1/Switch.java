@@ -16,7 +16,7 @@ public class Switch {
 		
 		int num = 1;
 		String str = "가";
-		switch(str) {
+		switch(str) { //문자열 비교
 		case "가":
 			System.out.println("가");
 			break;

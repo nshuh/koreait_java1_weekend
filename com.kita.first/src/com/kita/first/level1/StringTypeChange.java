@@ -8,7 +8,7 @@ public class StringTypeChange { //문자열 형변환
 		String result1 = num + str;
 		System.out.println(result1); // 3안녕 3은 문자로 변환됨
 		
-		String str2 = "123"; // 문자123을 정수로 형변활 하려면??
+		String str2 = "123"; // 문자123을 정수로 형변환 하려면??
 		//int result2 = (int)str2; // <-문자열에는 이방식이 안된다... 아래형태로 변환해야 함
 		int result2 = Integer.parseInt(str2); // <-이렇게 해야....;;;;
 		

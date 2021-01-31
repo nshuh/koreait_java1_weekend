@@ -23,7 +23,7 @@ public class Equals { //문자열 비교
 		String str3 = new String("안녕");
 		
 		boolean result4 = (str1 == str2);
-		System.out.println("result4: "+result4);
+		System.out.println("result4: "+result4); // true
 		boolean result5 = (str1 == str3);
 		System.out.println("result5: "+result5); 
 		// false이유 ?? String은 참조변수 이며, "안녕"의  data를 가지고 있는것이 아니라 "안녕"이라는 주소를 가지고 있음...응?? "안녕"을 비교하는 것이 아니라 주소값이 같아야 참이됨, new를 쓰면 다른 번지기 때문에 false가 됨
