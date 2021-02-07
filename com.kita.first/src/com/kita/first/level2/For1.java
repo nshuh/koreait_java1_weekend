@@ -2,7 +2,9 @@ package com.kita.first.level2;
 
 public class For1 {
 	public static void main(String[] args) {
+//           A      B    C
 //		for(초기식; 조건식; 증감식) { //횟수가 정해져 있는 형태에 주로 사용하는 반복문
+//           D
 //			실행식
 //		}
 		

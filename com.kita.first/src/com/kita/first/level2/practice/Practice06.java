@@ -19,7 +19,7 @@ public class Practice06 {
 			num = scan.nextInt();
 			if(num == 0) {	
 				scan.close();
-				break;
+				break; // 0을 입력하면 끝나게 함
 			}
 		    total += num;	
 		}

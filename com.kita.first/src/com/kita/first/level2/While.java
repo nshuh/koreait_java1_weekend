@@ -10,6 +10,7 @@ public class While {
 			System.out.println(i);
 		}
 		
+// 위 for를 while로 바꾸면 아래같이 된다.		
 		
 		int i=0;
 		while(i<3) {
