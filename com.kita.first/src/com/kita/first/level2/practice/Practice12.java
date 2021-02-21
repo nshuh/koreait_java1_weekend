@@ -20,7 +20,6 @@ public class Practice12 {
 		arr2[3]="수박";
 		System.out.println(Arrays.toString(arr2));
 		
-		
 	}
 
 }

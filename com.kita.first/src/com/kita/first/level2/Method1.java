@@ -26,9 +26,6 @@ public class Method1 { // 내가 코드를 미리 작성해놓고 필요할 때 
 //		코드
 //	}
 	
-	public static void sum(int n1, int n2) {
-		System.out.println(n1 + n2);
-	}
 
 	//비 void형 으로 int값을 리턴하는  sum 메소드
 	//매개변수는 int 값 2개 가짐

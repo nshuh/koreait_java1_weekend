@@ -4,7 +4,7 @@ public class Practice14 {
 	public static void main(String[] args) {
 		//성적 배열
 		int[][] arr = {
-				{67,49,87}, //국어성적
+				{67,49,87,56}, //국어성적
 				{89,92,56}, //수학성적
 				{76,39,98}  //영어성적
 		};
@@ -26,7 +26,7 @@ public class Practice14 {
 		}
 		
 		for(int i=0; i<clsArr.length; i++) {
-			System.out.printf("%s합계: %d, 평균: %.1f\n", clsArr[i], (float)sumArr[i], sumArr[i]/arr[i].length);
+			System.out.printf("%s합계: %d, 평균: %.1f\n", clsArr[i], sumArr[i], (float)sumArr[i]/arr[i].length);
 		}
 		
 		int totalSum = 0;
@@ -37,7 +37,7 @@ public class Practice14 {
 			totalCnt += arr[i].length;
 		}
 		
-		System.out.printf("%s전체합계: %d, 평균: %.1f\n", totalSum, (float)totalSum/totalCnt);
+		System.out.printf("전체합계: %d, 평균: %.1f\n", totalSum, (float)totalSum/totalCnt);
 		
 		
 		
